@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+  <h1>나는 학생입니다.</h1>
+  <a href="/">첫화면</a>
+  <a href="/main">메인</a>
+  <table border="1" >
+    <tr>
+        <td>
+            이름
+        </td>
+        <td>
+            성별
+        </td>
+    </tr>
+    <% for(var i=0; i<per.length; i++) { %>
+        <tr>
+            <td>
+                <%=per[i]["name"]%>
+            </td>
+            <td>
+                <%=per[i]["gender"]%>
+            </td>
+        </tr>
+    <% } %>
+</table>
+</div>
+    </body>
+</html>
+
