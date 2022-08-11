@@ -1,0 +1,24 @@
+{
+  "name": "study-backend",
+  "version": "1.0.0",
+  "description": "node js backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faith-choi/study-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faith-choi/study-backend/issues"
+  },
+  "homepage": "https://github.com/faith-choi/study-backend#readme",
+  "dependencies": {
+    "antd": "^4.22.4",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
